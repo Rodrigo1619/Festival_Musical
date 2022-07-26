@@ -1,0 +1,28 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "primerTarea": "gulp primerTarea"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo1619/Festival_Musical.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Rodrigo1619",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo1619/Festival_Musical/issues"
+  },
+  "homepage": "https://github.com/Rodrigo1619/Festival_Musical#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.54.0"
+  }
+}
