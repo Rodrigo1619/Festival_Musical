@@ -28,3 +28,7 @@ function css(done){
 exports.css = css;
 ```
 si corremos eso tendremos un error, asi que necesitamos un conector entre gulp y sass, por lo tanto lo instalamos de la siguiente manera. **npm i -D gulp-sass**
+
+# Vieja forma de importar en scss
+Para importar simplemente bastaba con un @import 'direccion/nombreCarpeta', pero hay una nueva forma y es la que
+esta implementada en este proyecto
